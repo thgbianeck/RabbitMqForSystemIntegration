@@ -3,13 +3,12 @@ package br.com.bnck.rabbitmq.consumer.consumer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.stereotype.Service;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
-@Service
+//@Service
 @RequiredArgsConstructor
 public class FixedRateConsumer {
 
