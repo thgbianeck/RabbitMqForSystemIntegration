@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
-@Service
+//@Service
 @Slf4j
 @RequiredArgsConstructor
 public class FurnitureProducer {
